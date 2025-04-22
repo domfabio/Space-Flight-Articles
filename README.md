@@ -35,7 +35,7 @@ Projeto desenvolvido durante a **Formação em Desenvolvimento Front-End | Santa
 ### 🚀 UI e Deploy
 <div align="center">
 <p >
-  <img src="./src/assets/screen.png" width="650px" alt="Captura de tela do projeto" style="border: none;">
+  <img src="./public/screen.png" width="650px" alt="Captura de tela do projeto" style="border: none;">
 </p>
 
 [→ Ver Projeto On-line 🔗](https://study-ui-tailwind.vercel.app/)
