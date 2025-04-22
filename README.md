@@ -21,7 +21,8 @@
 ---
 
 ### 📝 Sobre
-Projeto desenvolvido durante a **Formação em Desenvolvimento Front-End | Santander Tech+ | Ada Tech**, com o objetivo de praticar o uso de **`props`** e o reaproveitamento de componentes em **React.JS**.
+Projeto desenvolvido durante a **[Formação em Desenvolvimento Front-End | Santander Tech+](https://www.santanderopenacademy.com/pt_br/index.html)** em parceria com a **[Ada Tech](https://ada.tech/)**, com o objetivo de praticar o uso de **`props`** e o reaproveitamento de componentes em **React.JS**.
+
 
 ---
 ### 🧪 Extends do Projeto
