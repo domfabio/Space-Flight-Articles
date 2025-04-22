@@ -38,7 +38,7 @@ Projeto desenvolvido durante a **Formação em Desenvolvimento Front-End | Santa
   <img src="./public/screen.png" width="650px" alt="Captura de tela do projeto" style="border: none;">
 </p>
 
-[→ Ver Projeto On-line 🔗](https://study-ui-tailwind.vercel.app/)
+[→ Ver Projeto On-line 🔗](https://space-flight-articles-puce.vercel.app/)
 
 </div>
 
