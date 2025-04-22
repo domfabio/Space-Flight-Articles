@@ -25,9 +25,9 @@ Projeto desenvolvido durante a **Formação em Desenvolvimento Front-End | Santa
 
 ---
 ### 🧪 Extends do Projeto
-🎨 Estilização com **Tailwind CSS**, instalado em um ambiente configurado com Vite.
-📁 Organização dos dados em um arquivo externo, simulando um **banco de dados**.
-🔁 Renderização dinâmica utilizando o método **`.map()`**, para reaproveitar componentes de forma eficiente.
+🎨 Estilização com **Tailwind CSS**, instalado em um ambiente configurado com Vite.<br>
+📁 Organização dos dados em um arquivo externo, simulando um **banco de dados**.<br>
+🔁 Renderização dinâmica utilizando o método **`.map()`**, para reaproveitar componentes de forma eficiente.<br>
 ♻️ Estrutura pensada para escalabilidade e manutenção do código.
 
 ---
