@@ -42,8 +42,8 @@ Projeto desenvolvido durante a **[Formação em Desenvolvimento Front-End | Sant
 ---
 ### 🧪 Extends do Projeto
 
-🎨 Estilização feita com **Tailwind CSS**, configurado em ambiente Vite.
-🚨 Aplicação de boas práticas de tratamento de erro, utilizando `try...catch` para capturar possíveis falhas na requisição e alertar o usuário.
+- 🎨 Estilização feita com **Tailwind CSS**, configurado em ambiente Vite.
+- 🚨 Aplicação de boas práticas de tratamento de erro, utilizando `try...catch` para capturar possíveis falhas na requisição e alertar o usuário.
 
 ---
 
@@ -118,7 +118,7 @@ http://localhost:5173/
 ### 🏆 Desafios e Conquistas
 
 > Durante o desenvolvimento, enfrentei um desafio relacionado à exibição das imagens vindas da API, por possuírem tamanhos variados e quebravam o layout visual da aplicação.
-A solução foi envolver a `<img />` em uma `<div>` com tamanho fixo e `overflow-hidden`, garantindo um layout consistente. Além disso, a imagem foi estilizada com `object-cover` e `object-center` para manter o foco e preenchimento adequado. **Essa abordagem garantiu responsividade, estética e uma melhor experiência de leitura.**
+A solução foi envolver a `<img/>` em uma `<div>` com tamanho fixo e `overflow-hidden`, garantindo um layout consistente. Além disso, a imagem foi estilizada com `object-cover` e `object-center` para manter o foco e preenchimento adequado. **Essa abordagem garantiu responsividade, estética e uma melhor experiência de leitura.**
 
 ---
 
