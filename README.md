@@ -7,29 +7,43 @@
 
 <br>
 
+<div align="center">
+  <img src="https://www.spaceflightnewsapi.net/img/SNAPI_logo.png" alt="Spaceflight News API" width="120px"/>
+</div>
+
 <h1 align="center">Space Flight Articles - Ada Tech</h1>
 
 
 ### 🧭 Navegação Rápida
 
 - 📝 [Sobre](#-sobre)
+- 🔧 [Funcionalidades e Aprendizados](#-funcionalidades-e-aprendizados)
 - 🧪 [Extends do Projeto](#-extends-do-projeto)
 - 🚀 [UI e Deploy](#-ui-e-deploy)
-- ▶️ [Como Configurar o Projeto no VS Code](#️-como-configurar-o-projeto-no-vs-code)
+- ⚙️ [Configuração com NPM ou Yarn](#️-configuração-com-npm-ou-yarn)
+- 🏆 [Desafios e Conquistas](#-desafios-e-conquistas)
 - 🤝 [Contribuição](#-contribuição)
-
 ---
 
 ### 📝 Sobre
-Projeto desenvolvido durante a **[Formação em Desenvolvimento Front-End | Santander Tech+](https://www.santanderopenacademy.com/pt_br/index.html)** em parceria com a **[Ada Tech](https://ada.tech/)**, com o objetivo de praticar o uso de **`props`** e o reaproveitamento de componentes em **React.JS**.
+Projeto desenvolvido durante a **[Formação em Desenvolvimento Front-End | Santander Tech+](https://www.santanderopenacademy.com/pt_br/index.html)** em parceria com a **[Ada Tech](https://ada.tech/)**, com o objetivo de praticar conceitos fundamentais do React como **componentização**, **props**, **hooks**, e integração com APIs externas.
+
+---
+### 🔧 Funcionalidades e Aprendizados
+
+- ✅ Utilização da **API pública Spaceflight News** com a biblioteca **Axios** para requisições HTTP:
+- 🔁 Uso do **`.map()`** para renderização dinâmica de componentes.
+- 📦 **Migração opcional para Yarn** como gerenciador de pacotes.
+- ⚛️ Utilização de **React Hooks** como `useState` para controle de estado e `useEffect` para chamadas à API.
+- ⏳ Inclusão da dependência `react-loader-spinner` para exibir loading em requisições assíncronas.
+- 💡 Estrutura escalável e com fácil manutenção.
 
 
 ---
 ### 🧪 Extends do Projeto
-🎨 Estilização com **Tailwind CSS**, instalado em um ambiente configurado com Vite.<br>
-📁 Organização dos dados em um arquivo externo, simulando um **banco de dados**.<br>
-🔁 Renderização dinâmica utilizando o método **`.map()`**, para reaproveitar componentes de forma eficiente.<br>
-♻️ Estrutura pensada para escalabilidade e manutenção do código.
+
+🎨 Estilização feita com **Tailwind CSS**, configurado em ambiente Vite.
+🚨 Aplicação de boas práticas de tratamento de erro, utilizando `try...catch` para capturar possíveis falhas na requisição e alertar o usuário.
 
 ---
 
@@ -45,7 +59,6 @@ Projeto desenvolvido durante a **[Formação em Desenvolvimento Front-End | Sant
 
 ---
 
-
 ## ▶️ Como Configurar o Projeto no VS Code:
 
 ### 📌 Pré-requisitos
@@ -54,24 +67,58 @@ Antes de prosseguir com a configuração, certifique-se de ter todos os pré-req
 `Git 2.4+` `Node.js 12+` `Live Server` `Tailwind CSS IntelliSense`
 
 
-### ⚙️ Configurando o Projeto
+### ⚙️ Configurando o Projeto com NPM ou Yarn
 
 1. Clone este repositório:
-Abra o **VS Code**, pressione `Ctrl + Shift + P`, digite **"Git Clone"** e cole o link do repositório:
 ```sh
-https://github.com/domfabio/Space-Flight-Articles.git
+git clone https://github.com/domfabio/Space-Flight-Articles.git
 ```
-2. Instalar Dependências:
+
+2. Acesse o diretório do projeto:
+```sh
+cd Space-Flight-Articles
+```
+
+3. Instale as dependências :
+> ⚠️ **Atenção**: Use apenas **NPM** ou **Yarn**, não os dois. Escolha o gerenciador de pacotes que preferir.
+
+
+Com **npm**:
 ```sh
 npm install
 ```
-3. Inicie o servidor de desenvolvimento:
+
+Com **yarn**:
+```sh
+yarn
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+Com **npm**:
 ```sh
 npm run dev
 ```
-4. Acesse o projeto no navegador:<br>
-No terminal, pressione `Ctrl + Clique` no link gerado:<br>
- ➜  Local:   http://localhost:5173/
+
+Com **yarn**:
+```sh
+yarn dev
+```
+
+5. Acesse o projeto no navegador:
+
+No terminal e clique no link gerado:
+
+```
+http://localhost:5173/
+```
+
+---
+
+### 🏆 Desafios e Conquistas
+
+> Durante o desenvolvimento, enfrentei um desafio relacionado à exibição das imagens vindas da API, por possuírem tamanhos variados e quebravam o layout visual da aplicação.
+A solução foi envolver a `<img />` em uma `<div>` com tamanho fixo e `overflow-hidden`, garantindo um layout consistente. Além disso, a imagem foi estilizada com `object-cover` e `object-center` para manter o foco e preenchimento adequado. **Essa abordagem garantiu responsividade, estética e uma melhor experiência de leitura.**
 
 ---
 
