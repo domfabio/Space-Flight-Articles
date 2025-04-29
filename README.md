@@ -67,7 +67,7 @@ Antes de prosseguir com a configuração, certifique-se de ter todos os pré-req
 `Git 2.4+` `Node.js 12+` `Live Server` `Tailwind CSS IntelliSense`
 
 
-### ⚙️ Configurando o Projeto com NPM ou Yarn
+### ⚙️ Configuração com NPM ou Yarn
 
 1. Clone este repositório:
 ```sh
